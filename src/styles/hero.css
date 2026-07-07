@@ -784,9 +784,8 @@
 		padding: 5px 9px;
 	}
 
-	.annot__tag,
-	.annot__pop {
-		display: none;
+	.hero__annots {
+		display: none !important;
 	}
 
 	.hero__stages {
