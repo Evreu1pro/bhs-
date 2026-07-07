@@ -101,6 +101,7 @@ section { position: relative; }
 	.story__cap p { display: none; }
 	.story__cap h3 { font-size: 1.1rem; margin-bottom: 0; }
 	.story__num { top: 14px; left: 18px; font-size: 0.9rem; }
+	.hero__panel { display: none !important; }
 }
 @media (max-width: 560px) {
 	.stats__grid { grid-template-columns: 1fr; }
