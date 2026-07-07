@@ -1,0 +1,39 @@
+:root {
+	/* Палитра — navy/graphite + BHS-blue + industrial green (без оранжевого) */
+	--navy: #0b1524;
+	--navy-2: #0f1c2e;
+	--graphite: #12161c;
+	--graphite-2: #1a2029;
+	--bhs-blue: #1e63c7;
+	--bhs-blue-bright: #3e8ef0;
+	--green: #2f8f4e;
+	--green-bright: #46c46b;
+	--ink: #0f1113;
+	--white: #f5f7fa;
+	--grey: #8a94a3;
+	--muted: #5b6169;
+	--surface: #f4f5f6;
+	--surface-2: #e7eaee;
+	/* Линии / стекло */
+	--line: rgba(255, 255, 255, 0.12);
+	--line-strong: rgba(255, 255, 255, 0.24);
+	--line-dark: rgba(15, 17, 19, 0.1);
+	--glass: rgba(12, 21, 36, 0.55);
+	--glass-brd: rgba(255, 255, 255, 0.14);
+	--accent: var(--green-bright);
+	/* Формы / тени */
+	--r-btn: 12px;
+	--r-card: 18px;
+	--r-section: 28px;
+	--shadow-1: 0 2px 8px rgba(7, 12, 20, 0.18);
+	--shadow-2: 0 12px 40px rgba(7, 12, 20, 0.32);
+	--glow-green: 0 0 0 3px rgba(70, 196, 107, 0.18), 0 0 18px rgba(70, 196, 107, 0.35);
+	--glow-blue: 0 0 0 3px rgba(62, 142, 240, 0.18), 0 0 18px rgba(62, 142, 240, 0.35);
+	/* Типографика / сетка */
+	--font-display: "Space Grotesk", system-ui, sans-serif;
+	--font-ui: "Inter", system-ui, sans-serif;
+	--container: 1200px;
+	--gutter: clamp(16px, 4vw, 40px);
+	--ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+	--dur: 0.5s;
+}

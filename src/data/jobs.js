@@ -1,0 +1,48 @@
+// editorial-список: num + tags (SEO) + hover-reveal description.
+export const jobs = [
+	{
+		id: "baggerfahrer",
+		num: "01",
+		title: "Baggerfahrer / Maschinen- und Anlagenbediener (m/w/d)",
+		tags: ["Technik", "Vollzeit", "Maschinen"],
+		text: "Du arbeitest mit moderner Technik, bewegst Material sicher auf dem Platz und sorgst dafür, dass Metalle sauber sortiert und vorbereitet werden.",
+		image: "greifbagger",
+		cta: "Jetzt bewerben",
+	},
+	{
+		id: "brennschneider",
+		num: "02",
+		title: "Brennschneider (m/w/d)",
+		tags: ["Metall", "Handwerk", "Draußen"],
+		text: "Du zerlegst Metallteile fachgerecht mit Sauerstoff und Propan — eine Aufgabe für Menschen, die sauber, ruhig und mit Verantwortung arbeiten.",
+		image: "brennschneider",
+		cta: "Jetzt bewerben",
+	},
+	{
+		id: "kraftfahrer",
+		num: "03",
+		title: "Kraftfahrer im Nahverkehr (m/w/d)",
+		tags: ["CE", "Regional", "Abends zuhause"],
+		text: "Du bist regional unterwegs, fährst moderne Lkw und kommst abends wieder nach Hause. Keine Fernfahrten, keine langen Wochenenden auf der Straße.",
+		image: "kraftfahrer",
+		cta: "Jetzt bewerben",
+	},
+	{
+		id: "platzarbeiter",
+		num: "04",
+		title: "Platzarbeiter (m/w/d)",
+		tags: ["Metallplatz", "Praxis", "Team"],
+		text: "Du packst auf dem Betriebshof mit an, sortierst Wertstoffe und hilfst dabei, Materialien wieder in den Kreislauf zu bringen.",
+		image: "platzarbeiter",
+		cta: "Jetzt bewerben",
+	},
+	{
+		id: "initiativ",
+		num: "05",
+		title: "Initiativbewerbung",
+		tags: ["Einfach melden", "Ohne Anschreiben"],
+		text: "Die passende Stelle ist gerade nicht dabei? Dann stell dich einfach kurz vor — ohne Anschreiben, ohne komplizierten Prozess.",
+		image: "nicoleEndres",
+		cta: "Initiativ bewerben",
+	},
+]
