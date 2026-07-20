@@ -27,3 +27,14 @@ npm run preview
 - Kein Video / Ladefehler → animierter CSS-Fallback (`.hero__vfallback`) + composed first frame bleiben sichtbar.
 - Bild-Ladefehler → `onerror` blendet aus / setzt `.is-empty` Platzhalter.
 - `prefers-reduced-motion` → statischer Hero ohne Scroll-Hijacking.
+
+---
+
+## English summary
+
+**BHS Walldorf** career landing (concept): industrial grid UI, scroll-driven hero process stages, job list, application form mock.
+
+- **Stack:** Vite · Vanilla JS · modular CSS
+- **Live:** https://bhs-chi.vercel.app
+- **Phase:** frontend complete; assets/forms production-ready in later phase
+
